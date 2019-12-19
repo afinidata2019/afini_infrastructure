@@ -1,0 +1,7 @@
+# afini
+
+[all:vars]
+env=deployment
+
+[webservers]
+staging.afinidata.com ansible_user=ubuntu
